@@ -1,0 +1,383 @@
+﻿<Page x:Class="lab6.Core.View.SessionPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab6.Core.Models"
+        mc:Ignorable="d"
+        Title="Cinema System" Height="600" Width="1000"
+        FontFamily="Bebas Neue Pro"
+        Margin="0,0,0,0"
+        >
+    <Page.Resources>
+        <Style x:Key="WaterMarkStyleTextBox" TargetType="{x:Type TextBox}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Grid>
+                            <Border Background="White" BorderBrush="#FF7D8683" BorderThickness="1"/>
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="5,0,0,0" VerticalAlignment="Center" />
+                            <Label Margin="5,0,0,0" x:Name="WaterMarkLabel" Content="{TemplateBinding Tag}" VerticalAlignment="Center"
+                                   Visibility="Collapsed" Foreground="Gray" FontFamily="Arial"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="Text" Value=""/>
+                                </MultiTrigger.Conditions>
+                                <Setter Property="Visibility" TargetName="WaterMarkLabel" Value="Visible"/>
+                            </MultiTrigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Foreground" Value="DimGray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="#c0ebe2" Margin="0,0,10,0">
+        <Border  CornerRadius="0,0,5,5" BorderBrush="Black" Background="WhiteSmoke" BorderThickness="1"  Margin="0,0,0,532" Height="68" VerticalAlignment="Bottom">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="0"/>
+            </Border.Effect>
+        </Border>
+        <Button  Background="#4c4a4b" Foreground="WhiteSmoke" Content="Личный кабинет" HorizontalAlignment="Left" FontSize="18" VerticalAlignment="Top" Width="119" RenderTransformOrigin="0.128,2.906" Height="25" Margin="849,29,0,0" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.181"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="GoBackButton" Background="#4c4a4b" Foreground="WhiteSmoke" Content="Назад&#xA;" HorizontalAlignment="Left" FontSize="18" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.128,2.906" Height="25" Margin="16,30,0,0" Click="GoBackButton_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.181"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBlock x:Name="DescriotionTextBlock" Padding="5,10,10,10" FontSize="16" HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="320" Width="371" Margin="10,252,0,0"/>
+        <Label x:Name="FilmNameLabel" HorizontalContentAlignment="Center" FontSize="25" Content="Label" HorizontalAlignment="Left" Margin="10,109,0,0" VerticalAlignment="Top" Width="371"/>
+        <Ellipse x:Name="Place15" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="122" Margin="736,341,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.952" ScaleX="1.05"/>
+                    <SkewTransform AngleX="-0.13"/>
+                    <RotateTransform Angle="91.256"/>
+                    <TranslateTransform X="3.844" Y="4.755"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place14" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="121" Margin="602,345,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.952" ScaleX="1.05"/>
+                    <SkewTransform AngleX="-0.176"/>
+                    <RotateTransform Angle="91.702"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place16" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="114" Margin="870,332,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.956" ScaleX="1.046"/>
+                    <SkewTransform AngleY="1.55"/>
+                    <RotateTransform Angle="72.566"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place13" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="103" Margin="470,317,0,0" Stroke="Black" VerticalAlignment="Top" Width="58" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1.016" ScaleX="0.984"/>
+                    <SkewTransform AngleY="0.12"/>
+                    <RotateTransform Angle="112.943"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place8" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="67" Margin="472,250,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.958" ScaleX="1.044"/>
+                    <SkewTransform AngleX="-1.95"/>
+                    <RotateTransform Angle="110.876"/>
+                    <TranslateTransform X="5.842" Y="9.167"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place12" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="67" Margin="882,287,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.953" ScaleX="1.05"/>
+                    <SkewTransform AngleY="0.744"/>
+                    <RotateTransform Angle="81.979"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place9" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="69" Margin="558,287,0,0" Stroke="Black" VerticalAlignment="Top" Width="54" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.953" ScaleX="1.049"/>
+                    <SkewTransform AngleX="-0.98"/>
+                    <RotateTransform Angle="99.673"/>
+                    <TranslateTransform X="4" Y="5.292"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place10" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="67" Margin="675,302,0,0" Stroke="Black" VerticalAlignment="Top" Width="54" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.952" ScaleX="1.051"/>
+                    <SkewTransform AngleY="0.009"/>
+                    <RotateTransform Angle="89.899"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place11" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="67" Margin="787,299,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.953" ScaleX="1.05"/>
+                    <SkewTransform AngleY="0.744"/>
+                    <RotateTransform Angle="81.979"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place4" Fill="#FFF4F4F5" Tag="4" HorizontalAlignment="Left" Height="67" Margin="533,217,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.966" ScaleX="1.035"/>
+                    <SkewTransform AngleX="-2.611"/>
+                    <RotateTransform Angle="122.541"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place7" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="67" Margin="823,235,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.958" ScaleX="1.044"/>
+                    <SkewTransform AngleY="1.888"/>
+                    <RotateTransform Angle="68.058"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place6" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="67" Margin="727,248,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.952" ScaleX="1.051"/>
+                    <SkewTransform AngleY="0.063"/>
+                    <RotateTransform Angle="89.323"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place5" Fill="#FFF4F4F5"  HorizontalAlignment="Left" Height="67" Margin="624,246,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.952" ScaleX="1.05"/>
+                    <SkewTransform AngleX="-0.18"/>
+                    <RotateTransform Angle="91.734"/>
+                    <TranslateTransform X="0.27" Y="0.001"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place1" Fill="#FFF4F4F5" Tag="1" HorizontalAlignment="Left" Height="67" Margin="592,178,0,0" Stroke="Black" VerticalAlignment="Top" Width="54" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.954" ScaleX="1.049"/>
+                    <SkewTransform AngleX="-1.064"/>
+                    <RotateTransform Angle="100.545"/>
+                    <TranslateTransform X="4.379" Y="5.726"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place2" Fill="#FFF4F4F5" Tag="2" HorizontalAlignment="Left" Height="67" Margin="681,192,0,0" Stroke="Black" VerticalAlignment="Top" Width="54" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.952" ScaleX="1.051"/>
+                    <SkewTransform AngleX="-0.03"/>
+                    <RotateTransform Angle="90.292"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place3" Fill="#FFF4F4F5" Tag="3" HorizontalAlignment="Left" Height="66" Margin="766,189,0,0" Stroke="Black" VerticalAlignment="Top" Width="54" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.954" ScaleX="1.048"/>
+                    <SkewTransform AngleY="1.084"/>
+                    <RotateTransform Angle="78.159"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Label HorizontalContentAlignment="Center" FontSize="25" Content="Выберите свободные места." HorizontalAlignment="Left" Margin="461,106,0,0" VerticalAlignment="Top" Width="519" Height="41"/>
+        <Button x:Name="DoBuyButton"  Background="#4c4a4b" Foreground="WhiteSmoke" Content="Купить" HorizontalAlignment="Left" FontSize="24" VerticalAlignment="Top" Width="125" RenderTransformOrigin="0.128,2.906" Height="47" Margin="836,492,0,0" Click="DoBuyButton_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.018"/>
+                    <RotateTransform Angle="-0.172"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <CheckBox x:Name="CheckPlace1"  Click="CheckBox_Checked" Tag="1" HorizontalAlignment="Left" Margin="617,211,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="14" Width="15">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.991" ScaleX="1.009"/>
+                    <SkewTransform AngleY="2.249"/>
+                    <RotateTransform Angle="25.294"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="CheckPlace2"  Click="CheckBox_Checked" Tag="2" HorizontalAlignment="Left" Margin="701,219,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.343,0.529" Height="15" Width="15"/>
+        <CheckBox x:Name="CheckPlace16"  Click="CheckBox_Checked" Tag="16" HorizontalAlignment="Left" Margin="894,382,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="14" Width="15">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.986" ScaleX="1.015"/>
+                    <SkewTransform AngleY="-2.596"/>
+                    <RotateTransform Angle="-32.147"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="CheckPlace15" Click="CheckBox_Checked" Tag="15" HorizontalAlignment="Left" Margin="763,398,0,0" VerticalAlignment="Top" Height="14" Width="14"/>
+        <CheckBox x:Name="CheckPlace13"  Click="CheckBox_Checked" Tag="13" HorizontalAlignment="Left" Margin="491,363,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="14" Width="14">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.987" ScaleX="1.014"/>
+                    <SkewTransform AngleY="2.545"/>
+                    <RotateTransform Angle="30.91"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="CheckPlace14" Click="CheckBox_Checked" Tag="14" HorizontalAlignment="Left" Margin="624,398,0,0" VerticalAlignment="Top" Height="14" Width="15"/>
+        <CheckBox x:Name="CheckPlace12"  Click="CheckBox_Checked" Tag="12" HorizontalAlignment="Left" Margin="904,313,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="14" Width="15">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.996" ScaleX="1.004"/>
+                    <SkewTransform AngleY="-1.645"/>
+                    <RotateTransform Angle="-18.452"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="CheckPlace11"  Click="CheckBox_Checked" Tag="11" HorizontalAlignment="Left" Margin="809,325,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="14" Width="15">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.99" ScaleX="1.01"/>
+                    <SkewTransform AngleY="-2.318"/>
+                    <RotateTransform Angle="-12.282"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="CheckPlace10" Tag="10"  Click="CheckBox_Checked" HorizontalAlignment="Left" Margin="696,330,0,0" VerticalAlignment="Top" Height="14" Width="15"/>
+        <CheckBox x:Name="CheckPlace9" Tag="9"  Click="CheckBox_Checked" HorizontalAlignment="Left" Margin="583,318,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="15" Width="14">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.996" ScaleX="1.005"/>
+                    <SkewTransform AngleY="1.66"/>
+                    <RotateTransform Angle="17.184"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="CheckPlace8"  Tag="8"  Click="CheckBox_Checked" HorizontalAlignment="Left" Margin="500,285,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="15" Width="14">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.985" ScaleX="1.015"/>
+                    <SkewTransform AngleY="2.615"/>
+                    <RotateTransform Angle="32.65"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="CheckPlace7" Tag="7"  Click="CheckBox_Checked" HorizontalAlignment="Left" Margin="846,262,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="14" Width="14">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.988" ScaleX="1.013"/>
+                    <SkewTransform AngleY="-2.482"/>
+                    <RotateTransform Angle="-29.547"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="CheckPlace6" Tag="6"  Click="CheckBox_Checked" HorizontalAlignment="Left" Margin="748,275,0,0" VerticalAlignment="Top" Height="14" Width="14"/>
+        <CheckBox x:Name="CheckPlace4" Tag="4"  Click="CheckBox_Checked" HorizontalAlignment="Left" Margin="556,244,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="14" Width="15">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.976" ScaleX="1.025"/>
+                    <SkewTransform AngleY="2.821"/>
+                    <RotateTransform Angle="44.437"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="CheckPlace5" Tag="5"  Click="CheckBox_Checked" HorizontalAlignment="Left" Margin="646,273,0,0" VerticalAlignment="Top" Height="14" Width="15"/>
+        <CheckBox x:Name="CheckPlace3" Tag="3"  Click="CheckBox_Checked" HorizontalAlignment="Left" Margin="789,215,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="15" Width="15">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.989" ScaleX="1.011"/>
+                    <SkewTransform AngleY="-2.403"/>
+                    <RotateTransform Angle="-27.991"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <Ellipse x:Name="Legend1"  Fill="MediumSpringGreen" HorizontalAlignment="Left" Height="67" Margin="439,476,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.958" ScaleX="1.044"/>
+                    <SkewTransform AngleX="-1.95"/>
+                    <RotateTransform Angle="89.042"/>
+                    <TranslateTransform X="5.842" Y="9.167"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place8_Copy1" Fill="Red" HorizontalAlignment="Left" Height="67" Margin="565,472,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.958" ScaleX="1.044"/>
+                    <SkewTransform AngleX="-1.95"/>
+                    <RotateTransform Angle="89.042"/>
+                    <TranslateTransform X="5.842" Y="9.167"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="Place8_Copy2" Fill="Yellow" HorizontalAlignment="Left" Height="67" Margin="686,470,0,0" Stroke="Black" VerticalAlignment="Top" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.958" ScaleX="1.044"/>
+                    <SkewTransform AngleX="-1.95"/>
+                    <RotateTransform Angle="89.042"/>
+                    <TranslateTransform X="5.842" Y="9.167"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Label Content="Доступен онлайн" HorizontalAlignment="Left" Margin="433,551,0,0" VerticalAlignment="Top" Height="24"/>
+        <Label Content="Выкуплен&#xD;&#xA;" HorizontalAlignment="Left" Margin="575,551,0,0" VerticalAlignment="Top" Height="24"/>
+        <Label Content="Доступен в кассе" HorizontalAlignment="Left" Margin="685,551,0,0" VerticalAlignment="Top" Height="24"/>
+        <Label x:Name="DurationLabel" FontSize="21" Content="Label" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top" Width="371"/>
+        <Label x:Name="TotalCostLabel" FontSize="21" Content="Цена: 0" HorizontalAlignment="Left" Margin="433,435,0,0" VerticalAlignment="Top" Width="228"/>
+        <Label FontSize="21" Content="Описание фильма" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top" Width="371"/>
+
+    </Grid>
+</Page>

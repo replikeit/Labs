@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Register System" version="4">
+  <OBJECT>
+    <ID name="Register System" mc="Standard.Package" uid="6eb9b9de-01e6-4b94-8f94-a56800c2d95b"/>
+    <PID name="Class Diagram" mc="Standard.Package" uid="a2d51833-99c0-459f-89e8-433c463f464d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Register System]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RegisterForm" mc="Standard.Class" uid="e560bb93-6199-4e39-a655-f28ab3d9bea7"/>
+        <COMPID name="RegisterController" mc="Standard.Class" uid="f4eb0c94-a98a-4f70-be44-75b09d16fe06"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Register System" mc="Standard.ClassDiagram" uid="ad2a882a-8c0d-4ed9-b41f-a81ecea91813"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

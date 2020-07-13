@@ -1,0 +1,58 @@
+﻿<Page x:Class="lab6.Core.View.RegisterPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab6.Core.View"
+        mc:Ignorable="d"
+        Title="Cinema System" Height="600" Width="1000
+        " Background="#c0ebe2"
+        FontFamily="Bebas Neue Pro">
+
+
+    <Grid>
+        <Border BorderBrush="Black" Background="WhiteSmoke" BorderThickness="1"  Margin="393,111,359,148" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.058"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.132"/>
+                </TransformGroup>
+            </Border.RenderTransform>
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="20" ShadowDepth="0"></DropShadowEffect>
+            </Border.Effect>
+        </Border>
+        <Label Content="РЕГИСТРАЦИЯ" HorizontalAlignment="Left" FontSize="25" Margin="461,118,0,0" VerticalAlignment="Top" RenderTransformOrigin="5.857,-1.887" Height="43"/>
+        <Button x:Name="DoRegisterButton" Background="#4c4a4b" Foreground="WhiteSmoke" Content="Зарегистрироваться" HorizontalAlignment="Left" FontSize="18" VerticalAlignment="Top" Width="176" RenderTransformOrigin="0.128,2.906" Height="28" Margin="428,355,0,0" Click="DoRegisterButton_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.181"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox x:Name="MailTextBox" SelectionChanged="OnSelectionChanged" Tag="Mail" HorizontalAlignment="Left" FontSize="18" Height="23" Margin="428,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174"/>
+        <TextBox x:Name="Phone"  SelectionChanged="OnSelectionChanged" Tag="PhoneNumber" FontSize="18" HorizontalAlignment="Left" Height="26" Margin="428,221,0,0"  VerticalAlignment="Top" Width="174"/>
+        <Label Content="Электронная почта" HorizontalAlignment="Left" Padding="0,5,0,0" Margin="428,161,0,0" VerticalAlignment="Top" Height="23" Width="174"/>
+        <Label Content="Телефон" HorizontalAlignment="Left" Padding="0,6,0,0" Margin="428,200,0,0" VerticalAlignment="Top" Height="23" Width="174"/>
+        <PasswordBox x:Name="ConfirmPasswordTextBox" Tag="ConfirmPassword" PasswordChanged="PasswordBox_OnTextInput" PasswordChar="*" FontSize="18" HorizontalAlignment="Left" Height="23" Margin="428,309,0,0"  VerticalAlignment="Top" Width="174"/>
+        <PasswordBox x:Name="PasswordTextBox" Tag="Password" PasswordChanged="PasswordBox_OnTextInput" PasswordChar="*" FontSize="18" HorizontalAlignment="Left" Height="25" Margin="428,267,0,0"  VerticalAlignment="Top" Width="174"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Padding="0,5,0,0" Margin="428,247,0,0" VerticalAlignment="Top" Height="23" Width="174"/>
+        <Label Content="Подтвердите пароль" HorizontalAlignment="Left" Padding="0,6,0,0" Margin="428,288,0,0" VerticalAlignment="Top" Height="23" Width="174"/>
+        <Button x:Name="BackToLoginButton" Background="#4c4a4b" Foreground="WhiteSmoke" Content="У меня уже есть аккаунт" HorizontalAlignment="Left" FontSize="18" VerticalAlignment="Top" Width="176" RenderTransformOrigin="0.128,2.906" Height="28" Margin="429,394,0,0" Click="BackToLoginButton_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.181"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</Page>

@@ -1,0 +1,10 @@
+D:\Коды\Методы Вычислений\Lab3\Lab3\bin\Release\Lab3.exe.config
+D:\Коды\Методы Вычислений\Lab3\Lab3\bin\Release\Lab3.exe
+D:\Коды\Методы Вычислений\Lab3\Lab3\bin\Release\Lab3.pdb
+D:\Коды\Методы Вычислений\Lab3\Lab3\bin\Release\MathNet.Numerics.dll
+D:\Коды\Методы Вычислений\Lab3\Lab3\bin\Release\MathNet.Numerics.xml
+D:\Коды\Методы Вычислений\Lab3\Lab3\obj\Release\Lab3.csproj.CoreCompileInputs.cache
+D:\Коды\Методы Вычислений\Lab3\Lab3\obj\Release\Lab3.csproj.CopyComplete
+D:\Коды\Методы Вычислений\Lab3\Lab3\obj\Release\Lab3.exe
+D:\Коды\Методы Вычислений\Lab3\Lab3\obj\Release\Lab3.pdb
+D:\Коды\Методы Вычислений\Lab3\Lab3\obj\Release\Lab3.csprojAssemblyReference.cache

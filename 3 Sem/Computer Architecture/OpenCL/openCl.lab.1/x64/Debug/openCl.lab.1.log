@@ -1,0 +1,6 @@
+﻿  openCl.lab.1.cpp
+C:\Users\khugl\source\repos\openCl.lab.1\openCl.lab.1.cpp(48,1): warning C4267:  инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\khugl\source\repos\openCl.lab.1\openCl.lab.1.cpp(95,1): warning C4267:  аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\khugl\source\repos\openCl.lab.1\openCl.lab.1.cpp(155,20): warning C4018:  <: несоответствие типов со знаком и без знака
+C:\Users\khugl\source\repos\openCl.lab.1\openCl.lab.1.cpp(156,21): warning C4018:  <: несоответствие типов со знаком и без знака
+  openCl.lab.1.vcxproj -> C:\Users\khugl\source\repos\openCl.lab.1\x64\Debug\openCl.lab.1.exe

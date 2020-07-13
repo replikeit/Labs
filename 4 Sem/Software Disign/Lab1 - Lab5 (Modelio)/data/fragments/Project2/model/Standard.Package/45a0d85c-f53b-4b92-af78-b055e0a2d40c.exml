@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="project2" version="4">
+  <OBJECT>
+    <ID name="project2" mc="Standard.Package" uid="45a0d85c-f53b-4b92-af78-b055e0a2d40c"/>
+    <PID name="Project2" mc="Standard.Project" uid="2dfa1e03-031c-4b15-9d00-845837b6c70b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[project2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="cinema cashbox" mc="Standard.Package" uid="002d6f77-3e99-45db-93a0-f48799ef914f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

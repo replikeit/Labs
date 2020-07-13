@@ -1,0 +1,7 @@
+D:\Коды\Irunner\Kufshinki\obj\Debug\Kufshinki.csprojAssemblyReference.cache
+D:\Коды\Irunner\Kufshinki\obj\Debug\Kufshinki.csproj.CoreCompileInputs.cache
+D:\Коды\Irunner\Kufshinki\bin\Debug\Kufshinki.exe.config
+D:\Коды\Irunner\Kufshinki\bin\Debug\Kufshinki.exe
+D:\Коды\Irunner\Kufshinki\bin\Debug\Kufshinki.pdb
+D:\Коды\Irunner\Kufshinki\obj\Debug\Kufshinki.exe
+D:\Коды\Irunner\Kufshinki\obj\Debug\Kufshinki.pdb

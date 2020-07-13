@@ -1,0 +1,3 @@
+﻿  main.c
+D:\Коды\Операционные Системы\lab2\threads\main.c(23,7): warning C4101: temp: неиспользованная локальная переменная
+  threads.vcxproj -> D:\Коды\Операционные Системы\lab2\threads\Debug\threads.exe

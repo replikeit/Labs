@@ -1,0 +1,10 @@
+D:\Коды\Мат. Моделирование\Lab3\Lab3mm\Lab3mm\bin\Debug\Lab3mm.exe.config
+D:\Коды\Мат. Моделирование\Lab3\Lab3mm\Lab3mm\bin\Debug\Lab3mm.exe
+D:\Коды\Мат. Моделирование\Lab3\Lab3mm\Lab3mm\bin\Debug\Lab3mm.pdb
+D:\Коды\Мат. Моделирование\Lab3\Lab3mm\Lab3mm\obj\Debug\Lab3mm.csprojAssemblyReference.cache
+D:\Коды\Мат. Моделирование\Lab3\Lab3mm\Lab3mm\obj\Debug\Lab3mm.Form1.resources
+D:\Коды\Мат. Моделирование\Lab3\Lab3mm\Lab3mm\obj\Debug\Lab3mm.Properties.Resources.resources
+D:\Коды\Мат. Моделирование\Lab3\Lab3mm\Lab3mm\obj\Debug\Lab3mm.csproj.GenerateResource.cache
+D:\Коды\Мат. Моделирование\Lab3\Lab3mm\Lab3mm\obj\Debug\Lab3mm.csproj.CoreCompileInputs.cache
+D:\Коды\Мат. Моделирование\Lab3\Lab3mm\Lab3mm\obj\Debug\Lab3mm.exe
+D:\Коды\Мат. Моделирование\Lab3\Lab3mm\Lab3mm\obj\Debug\Lab3mm.pdb

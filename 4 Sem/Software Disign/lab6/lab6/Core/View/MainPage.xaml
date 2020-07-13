@@ -1,0 +1,155 @@
+﻿<Page x:Class="lab6.Core.View.MainPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab6.Core.Models"
+        mc:Ignorable="d"
+        Title="Cinema System" Height="600" Width="1008.8"
+        FontFamily="Bebas Neue Pro"
+        Margin="0,0,0,0"
+        >
+    <Page.Resources>
+        <Style x:Key="WaterMarkStyleTextBox" TargetType="{x:Type TextBox}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Grid>
+                            <Border Background="White" BorderBrush="#FF7D8683" BorderThickness="1"/>
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="5,0,0,0" VerticalAlignment="Center" />
+                            <Label Margin="5,0,0,0" x:Name="WaterMarkLabel" Content="{TemplateBinding Tag}" VerticalAlignment="Center"
+                                   Visibility="Collapsed" Foreground="Gray" FontFamily="Arial"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="Text" Value=""/>
+                                </MultiTrigger.Conditions>
+                                <Setter Property="Visibility" TargetName="WaterMarkLabel" Value="Visible"/>
+                            </MultiTrigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Foreground" Value="DimGray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid Margin="0,0,10.4,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="611*"/>
+            <ColumnDefinition Width="380*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="79*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="47*"/>
+            <RowDefinition Height="433*"/>
+        </Grid.RowDefinitions>
+        <DataGrid Background="#c0ebe2" MinRowHeight ="50"  RowHeight ="50"  FontSize="18" x:Name="SessionsDataGrid" Padding="0,2,0,0" HorizontalAlignment="Left" Height="545" Margin="0,55,0,0" VerticalAlignment="Top" Width="990" Grid.RowSpan="4" Grid.ColumnSpan="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название фильма" Binding="{Binding Path=FilmName}" Width="140" >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Style.Setters>
+                                <Setter Property="TextBlock.VerticalAlignment" Value="Center" />
+                                <Setter Property="TextBlock.HorizontalAlignment" Value="Center" />
+                            </Style.Setters>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Описание" Binding="{Binding Path=Description}" Width="500" >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Начало фильма" Binding="{Binding Path=BeginTime}" Width="110" >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Style.Setters>
+                                <Setter Property="TextBlock.VerticalAlignment" Value="Center" />
+                                <Setter Property="TextBlock.HorizontalAlignment" Value="Center" />
+                            </Style.Setters>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Кинотеатр" Binding="{Binding Path=CinemaName}" Width="95" >
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Style.Setters>
+                                <Setter Property="TextBlock.VerticalAlignment" Value="Center" />
+                                <Setter Property="TextBlock.HorizontalAlignment" Value="Center" />
+                            </Style.Setters>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTemplateColumn Header="Купить" Width="120">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="GetTicketsButton" Background="#4c4a4b" Foreground="WhiteSmoke" Click="GetTicketsButton_OnClick" Content="Выбрать билеты" FontSize="18"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Border Grid.Row="0" CornerRadius="0,0,5,5" BorderBrush="Black" Background="WhiteSmoke" BorderThickness="1"  Margin="0,0,6.4,24.2" Grid.ColumnSpan="2">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="0"/>
+            </Border.Effect>
+        </Border>
+        <Calendar x:Name="BeginDiapasonCalendar" Tag ="Begin" Visibility="Hidden" SelectedDatesChanged ="SelectedOnCalendar" Margin="262,47,170.4,392" Grid.RowSpan="4"/>
+        <Calendar x:Name="EndDiapasonCalendar" Tag ="End" Visibility="Hidden" SelectedDatesChanged ="SelectedOnCalendar"  Margin="358,47,72.4,375" Grid.RowSpan="4"/>
+        <Button  x:Name="PersonalAreaButton" Grid.Row="0" Background="#4c4a4b" Foreground="WhiteSmoke" Content="Личный кабинет" FontSize="18" VerticalAlignment="Top" RenderTransformOrigin="0.128,2.906" Height="25" Margin="240.6,21,22,0" Grid.Column="1" Click="PersonalAreaButton_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.181"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Grid.Row="0" Background="#4c4a4b" Foreground="WhiteSmoke" x:Name="DoSearchButton" Content="Найти&#xA;" HorizontalAlignment="Left" FontSize="18" VerticalAlignment="Top" Width="57" RenderTransformOrigin="0.128,2.906" Height="25" Margin="22.6,21,0,0" Click="DoSearchButton_Click" Grid.Column="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.181"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox x:Name = "SearchTextBox" Style="{StaticResource ResourceKey=WaterMarkStyleTextBox}" Tag="Поиск" HorizontalAlignment="Left" FontSize="18" Height="32" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" Margin="10,18,0,0"/>
+        <ComboBox x:Name = "CinemasComboBox"  FontSize="19" HorizontalAlignment="Left" Margin="500,20,0,0" VerticalAlignment="Top" Width="123" Height="27" RenderTransformOrigin="0.348,0.45" Grid.ColumnSpan="2">
+            <ComboBoxItem Content="Любой" IsSelected="True" />
+        </ComboBox>
+        <Label Content="-" HorizontalAlignment="Left" Margin="392,23,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.021,0.489" Width="14" Height="24"/>
+        <Label Content="Диапозон дат" Padding="0,8,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="371,-1,0,0" Height="22" Width="54"/>
+        <Label Content="Кинотеатр"  Padding="0,8,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="22" Width="54" Margin="500,-7,0,0"/>
+        <Button Grid.Row="0"  Tag="Begin" IsEnabled="False" Background="#4c4a4b" Foreground="WhiteSmoke" x:Name="BeginCalendarButton" Content="" HorizontalAlignment="Left" FontSize="18" VerticalAlignment="Top" Width="81" RenderTransformOrigin="0.128,2.906" Height="25" Margin="310,22,0,0" Click="CalendarButton_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.181"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Grid.Row="0" Background="#4c4a4b" IsEnabled="False"  Tag="End" Foreground="WhiteSmoke" x:Name="EndCalendarButton" Content="" HorizontalAlignment="Left" FontSize="18" VerticalAlignment="Top" Width="81" RenderTransformOrigin="0.128,2.906" Height="25" Margin="408,22,0,0" Click="CalendarButton_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.181"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</Page>

@@ -1,0 +1,2 @@
+D:\Коды\Операционные Системы\lab1\Main\Debug\lab1.exe
+D:\Коды\Операционные Системы\lab1\Main\Debug\lab1.pdb

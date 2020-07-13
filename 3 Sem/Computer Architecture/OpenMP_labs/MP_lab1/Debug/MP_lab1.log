@@ -1,0 +1,3 @@
+﻿  MP_lab1.cpp
+D:\Коды\OpenMP_labs\MP_lab1\MP_lab1.cpp(34): warning C4715:  Program::func: значение возвращается не при всех путях выполнения
+  MP_lab1.vcxproj -> D:\Коды\OpenMP_labs\MP_lab1\Debug\MP_lab1.exe

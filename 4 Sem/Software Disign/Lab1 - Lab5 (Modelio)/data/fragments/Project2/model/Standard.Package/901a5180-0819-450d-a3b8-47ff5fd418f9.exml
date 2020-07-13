@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Login System" version="4">
+  <OBJECT>
+    <ID name="Login System" mc="Standard.Package" uid="901a5180-0819-450d-a3b8-47ff5fd418f9"/>
+    <PID name="Class Diagram" mc="Standard.Package" uid="a2d51833-99c0-459f-89e8-433c463f464d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Login System]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LoginForm" mc="Standard.Class" uid="530a5ed1-2908-447d-b6cb-fc554c9f8767"/>
+        <COMPID name="LoginController" mc="Standard.Class" uid="89253ce3-42f5-4d4a-9977-40d56a30d373"/>
+        <COMPID name="CRUDForm" mc="Standard.Class" uid="0296edf3-4d35-47bf-89b8-8baa4a997a52"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Log in System" mc="Standard.ClassDiagram" uid="1c303817-e843-4848-b9fc-7353d38b4d83"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

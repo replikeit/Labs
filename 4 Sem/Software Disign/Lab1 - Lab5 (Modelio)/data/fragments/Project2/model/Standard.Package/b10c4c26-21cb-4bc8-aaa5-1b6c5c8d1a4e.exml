@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Main Abstration" version="4">
+  <OBJECT>
+    <ID name="Main Abstration" mc="Standard.Package" uid="b10c4c26-21cb-4bc8-aaa5-1b6c5c8d1a4e"/>
+    <PID name="Class Diagram" mc="Standard.Package" uid="a2d51833-99c0-459f-89e8-433c463f464d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Main Abstration]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Ticket" mc="Standard.Class" uid="5a6bbb41-12c2-4cc3-9402-beef8b2bec22"/>
+        <COMPID name="StatusOfTicket" mc="Standard.Class" uid="5d1abd16-73d3-4da6-a211-7623ad0160e4"/>
+        <COMPID name="Cinema" mc="Standard.Class" uid="e2f2373d-da0a-47af-8b82-e046df04399e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Main Abstraction" mc="Standard.ClassDiagram" uid="94dda36c-c891-4145-8cca-f63a2d359ca1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

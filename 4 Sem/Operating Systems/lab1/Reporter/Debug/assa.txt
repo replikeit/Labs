@@ -1,0 +1,4 @@
+Report from file.bin
+Number: 1 	 Name: Igor 	 hours worked: 8.2 	 salary: 82.00
+Number: 41 	 Name: Guram 	 hours worked: 4.2 	 salary: 42.00
+Number: 22 	 Name: Huramar 	 hours worked: 12.7 	 salary: 127.00

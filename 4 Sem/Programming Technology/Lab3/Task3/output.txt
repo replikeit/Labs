@@ -1,0 +1,40 @@
+***Matches by year working started***
+
+	***Person info***
+Name: Irjan	Last name: Barakja	patronymic: Abrokhomovich
+Birthday: 25/12/1972
+	***Address info***
+Country: Belarus	City: Minsk	Region: Minsk	 Area:Maskovsky
+Street: Partizanskaya 31-51
+Postal code: 315413
+Nationality: Gruzin
+	***Job information***
+Workshop number: 2215512	Card number: 1111223	Education: BSUIR
+Start working date: 11/10/2010
+
+	***Person info***
+Name: Guram	Last name: Buhamovich	patronymic: Gramovich
+Birthday: 15/2/1962
+	***Address info***
+Country: Belarus	City: Minsk	Region: Minsk	 Area:Centralny
+Street: Grushevskya 31-79
+Postal code: 365463
+Nationality: Cigan
+	***Job information***
+Workshop number: 1315992	Card number: 11511223	Education: BNTU
+Start working date: 11/10/2010
+
+	***Person info***
+Name: Anatoly	Last name: Baran	patronymic: Vladimirovich
+Birthday: 15/2/1982
+	***Address info***
+Country: Belarus	City: Minsk	Region: Minsk	 Area:Frundensky
+Street: Pushkinskaya 55-66
+Postal code: 365463
+Nationality: Kazah
+	***Job information***
+Workshop number: 1315992	Card number: 11511223	Education: BSTU
+Start working date: 9/7/2010
+
+
+3 matches found

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Main Diagram" version="4">
+  <OBJECT>
+    <ID name="Main Diagram" mc="Standard.Package" uid="212570e5-dc12-4c81-bdaa-d324da79bafc"/>
+    <PID name="cinema cashbox" mc="Standard.Package" uid="002d6f77-3e99-45db-93a0-f48799ef914f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Main Diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Пользователь" mc="Standard.Actor" uid="f0b68c31-07e8-4c06-bb30-4382927e040b"/>
+        <COMPID name="Клиент" mc="Standard.Actor" uid="a2a95b00-3a3e-4d68-9213-e9e69fc59e2f"/>
+        <COMPID name="Работник" mc="Standard.Actor" uid="bff2cfa1-9a35-4a25-b969-9026636a3a75"/>
+        <COMPID name="Система" mc="Standard.Actor" uid="86a8f712-cf46-492b-b5a9-602d56d7309c"/>
+        <COMPID name="База данных" mc="Standard.Actor" uid="1a2c58af-7245-4e7a-ba01-9898f424bc98"/>
+        <COMPID name="Вход в систему" mc="Standard.UseCase" uid="4f00d296-0b64-41b6-affc-0cfb7c1a6341"/>
+        <COMPID name="Покупка билета" mc="Standard.UseCase" uid="140e99be-2752-4337-9979-16ed9457d4db"/>
+        <COMPID name="CRUD данных о сеансах и билетах" mc="Standard.UseCase" uid="a1b8630f-afdb-481c-ad4e-4ed63bbc8e07"/>
+        <COMPID name="Прекратить продажу онлайн" mc="Standard.UseCase" uid="080e0c5e-8338-4715-b16c-f5f74fce0e1d"/>
+        <COMPID name="Вывести информацию о местах в зале" mc="Standard.UseCase" uid="c3adb9f0-42df-41cb-9489-0049d3d7c886"/>
+        <COMPID name="Зачислить бонусы" mc="Standard.UseCase" uid="2a89944c-1ba8-492d-83ac-538a0fcebb1a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="main" mc="Standard.UseCaseDiagram" uid="2e871a30-495a-42ea-ac4f-75d02dfe2620"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,4 @@
+File report from file.bin
+1 Igor 8.2 82
+41 Guram 4.2 42
+22 Huramar 12.7 127

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aQYH33RxiJQ2KXXHk3O/lbxb9CRuUCKjaDC8MgeQVdLbR9lGMfCAjSciNTzX7yo28BGW6YBBUSbucFe+pLlKjA==",
+  "success": true,
+  "projectFilePath": "D:\\Коды\\Технологи Программирования\\Lab7\\Task2\\Task2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\khugl\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

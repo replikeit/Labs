@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Банк" version="4">
+  <OBJECT>
+    <ID name="Банк" mc="Standard.Actor" uid="3cfc01b6-d1ae-413b-9985-a1455ff3613c"/>
+    <PID name="Business Diagram" mc="Standard.Package" uid="f0c6a47f-8802-4c2d-8995-4d01311cfa86"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Банк]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

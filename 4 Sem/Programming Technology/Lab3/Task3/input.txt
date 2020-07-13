@@ -1,0 +1,51 @@
+Vasya
+Pupkin
+Genadyevich
+223512
+Belarus Minsk Frundensky Minsk 
+Pushkinskaya 31 51
+Russian
+31 02 1967
+2215512
+1111223
+BSU
+21 12 1999
+
+Irjan
+Barakja
+Abrokhomovich
+315413
+Belarus Minsk Maskovsky Minsk 
+Partizanskaya 31 51
+Gruzin
+25 12 1972
+2215512
+1111223
+BSUIR
+11 10 2010
+
+Guram
+Buhamovich
+Gramovich
+365463
+Belarus Minsk Centralny Minsk 
+Grushevskya 31 79
+Cigan
+15 02 1962
+1315992
+11511223
+BNTU
+11 10 2010
+
+Anatoly
+Baran
+Vladimirovich
+365463
+Belarus Minsk Frundensky Minsk 
+Pushkinskaya 55 66
+Kazah
+15 02 1982
+1315992
+11511223
+BSTU
+09 07 2010

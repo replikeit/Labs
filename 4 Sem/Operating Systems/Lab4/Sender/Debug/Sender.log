@@ -1,0 +1,3 @@
+﻿  Sender.c
+D:\Коды\Операционные Системы\Lab4\Sender\Sender.c(14,66): warning C4133: функция: несовместимые типы - из "char [11]" в "LPCWSTR"
+  Sender.vcxproj -> D:\Коды\Операционные Системы\Lab4\Debug\Sender.exe

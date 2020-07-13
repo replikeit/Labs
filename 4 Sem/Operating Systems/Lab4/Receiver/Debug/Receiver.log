@@ -1,0 +1,3 @@
+﻿  Receiver.c
+D:\Коды\Операционные Системы\Lab4\Receiver\Receiver.c(86,66): warning C4133: функция: несовместимые типы - из "char [11]" в "LPCWSTR"
+  Receiver.vcxproj -> D:\Коды\Операционные Системы\Lab4\Debug\Receiver.exe

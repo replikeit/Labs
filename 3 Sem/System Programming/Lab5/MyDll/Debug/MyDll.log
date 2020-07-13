@@ -1,0 +1,15 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(76,5): warning : Отказано в доступе по пути "d:\коды\системное программирование\mydll\debug\mydll.pdb".
+  pch.cpp
+  dllmain.cpp
+  MyDll.cpp
+D:\Коды\Системное Программирование\MyDll\MyDll.cpp(12,1): warning C4273:  GetDllName: несовместимая компоновка dll
+D:\Коды\Системное Программирование\MyDll\MyDll.h(11,25): message :  см. предыдущее определение "GetDllName"
+D:\Коды\Системное Программирование\MyDll\MyDll.cpp(23,1): warning C4273:  GetAuthor: несовместимая компоновка dll
+D:\Коды\Системное Программирование\MyDll\MyDll.h(12,25): message :  см. предыдущее определение "GetAuthor"
+D:\Коды\Системное Программирование\MyDll\MyDll.cpp(34,1): warning C4273:  GetDescription: несовместимая компоновка dll
+D:\Коды\Системное Программирование\MyDll\MyDll.h(13,25): message :  см. предыдущее определение "GetDescription"
+D:\Коды\Системное Программирование\MyDll\MyDll.cpp(45,1): warning C4273:  Execute: несовместимая компоновка dll
+  Создание кода...
+D:\Коды\Системное Программирование\MyDll\MyDll.h(14,22): message :  см. предыдущее определение "Execute"
+     Создается библиотека D:\Коды\Системное Программирование\MyDll\Debug\MyDll.lib и объект D:\Коды\Системное Программирование\MyDll\Debug\MyDll.exp
+LINK : fatal error LNK1201: Ошибка при записи в базу данных "D:\Коды\Системное Программирование\MyDll\Debug\MyDll.pdb" программы; возможно, не хватает места на диске, недопустимый путь или недостаточно прав

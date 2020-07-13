@@ -1,0 +1,16 @@
+D:\Коды\Криптография\Crypting\Crypting\bin\Debug\netcoreapp3.1\Crypting.exe
+D:\Коды\Криптография\Crypting\Crypting\bin\Debug\netcoreapp3.1\Crypting.deps.json
+D:\Коды\Криптография\Crypting\Crypting\bin\Debug\netcoreapp3.1\Crypting.runtimeconfig.json
+D:\Коды\Криптография\Crypting\Crypting\bin\Debug\netcoreapp3.1\Crypting.runtimeconfig.dev.json
+D:\Коды\Криптография\Crypting\Crypting\bin\Debug\netcoreapp3.1\Crypting.dll
+D:\Коды\Криптография\Crypting\Crypting\bin\Debug\netcoreapp3.1\Crypting.pdb
+D:\Коды\Криптография\Crypting\Crypting\obj\Debug\netcoreapp3.1\Crypting.csprojAssemblyReference.cache
+D:\Коды\Криптография\Crypting\Crypting\obj\Debug\netcoreapp3.1\Crypting.AssemblyInfoInputs.cache
+D:\Коды\Криптография\Crypting\Crypting\obj\Debug\netcoreapp3.1\Crypting.AssemblyInfo.cs
+D:\Коды\Криптография\Crypting\Crypting\obj\Debug\netcoreapp3.1\Crypting.dll
+D:\Коды\Криптография\Crypting\Crypting\obj\Debug\netcoreapp3.1\Crypting.pdb
+D:\Коды\Криптография\Crypting\Crypting\obj\Debug\netcoreapp3.1\Crypting.genruntimeconfig.cache
+D:\Коды\Криптография\Crypting\Crypting\bin\Debug\netcoreapp3.1\MathNet.Numerics.dll
+D:\Коды\Криптография\Crypting\Crypting\bin\Debug\netcoreapp3.1\MathNet.Numerics.Data.Text.dll
+D:\Коды\Криптография\Crypting\Crypting\obj\Debug\netcoreapp3.1\Crypting.csproj.CoreCompileInputs.cache
+D:\Коды\Криптография\Crypting\Crypting\obj\Debug\netcoreapp3.1\Crypting.csproj.CopyComplete

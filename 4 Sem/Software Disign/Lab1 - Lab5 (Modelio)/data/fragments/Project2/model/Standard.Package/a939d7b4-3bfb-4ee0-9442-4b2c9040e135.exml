@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Choose Diagram" version="4">
+  <OBJECT>
+    <ID name="Choose Diagram" mc="Standard.Package" uid="a939d7b4-3bfb-4ee0-9442-4b2c9040e135"/>
+    <PID name="Additional Models" mc="Standard.Package" uid="c46c6f2e-8a9e-4504-80fd-02e071c7210c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Choose Diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Выбор билета" mc="Standard.UseCase" uid="bd77bfd0-f555-461c-b421-d2f5048ca811"/>
+        <COMPID name="Поиск по афише" mc="Standard.UseCase" uid="77ff4d39-7e7d-48b7-ae12-00a533f9b06d"/>
+        <COMPID name="Кинотеатр" mc="Standard.UseCase" uid="dcf26dcf-4611-4908-8c03-d3100ca2766a"/>
+        <COMPID name="Диапазон дат" mc="Standard.UseCase" uid="a95152ef-e1bd-42cc-8f8a-db4fb5b003ee"/>
+        <COMPID name="Название фильма" mc="Standard.UseCase" uid="14dd8776-78db-4d2f-9c93-d4c5b934fbfd"/>
+        <COMPID name="Обращение к БД" mc="Standard.UseCase" uid="f2e17a51-4b81-4740-8c68-2ca8ae6f7f97"/>
+        <COMPID name="Подтвердить выбор билета" mc="Standard.UseCase" uid="2f05c764-f742-4988-9985-63ae0309dd01"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Search Diagram Use Case diagram" mc="Standard.UseCaseDiagram" uid="05b3bbbe-7d24-4fc8-a3ba-dd49a054cad1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

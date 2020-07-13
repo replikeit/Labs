@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cinema cashbox" version="4">
+  <OBJECT>
+    <ID name="cinema cashbox" mc="Standard.Package" uid="002d6f77-3e99-45db-93a0-f48799ef914f"/>
+    <PID name="project2" mc="Standard.Package" uid="45a0d85c-f53b-4b92-af78-b055e0a2d40c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cinema cashbox]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Main Diagram" mc="Standard.Package" uid="212570e5-dc12-4c81-bdaa-d324da79bafc"/>
+        <COMPID name="Business Diagram" mc="Standard.Package" uid="f0c6a47f-8802-4c2d-8995-4d01311cfa86"/>
+        <COMPID name="Additional Models" mc="Standard.Package" uid="c46c6f2e-8a9e-4504-80fd-02e071c7210c"/>
+        <COMPID name="Logical View" mc="Standard.Package" uid="d0f0fb19-0ccb-46a8-8f94-26055eb82a69"/>
+        <COMPID name="Companent View" mc="Standard.Package" uid="fd510c17-acc0-4cfd-84d6-8ad5a7b92e5e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

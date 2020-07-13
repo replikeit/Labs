@@ -1,0 +1,15 @@
+D:\Коды\Криптография\RSA\RSA\bin\Debug\RSA.exe.config
+D:\Коды\Криптография\RSA\RSA\bin\Debug\RSA.exe
+D:\Коды\Криптография\RSA\RSA\bin\Debug\RSA.pdb
+D:\Коды\Криптография\RSA\RSA\bin\Debug\clipper_library.dll
+D:\Коды\Криптография\RSA\RSA\bin\Debug\GeometryClassLibrary.dll
+D:\Коды\Криптография\RSA\RSA\bin\Debug\MathNet.Numerics.dll
+D:\Коды\Криптография\RSA\RSA\bin\Debug\MoreLinq.Portable.dll
+D:\Коды\Криптография\RSA\RSA\bin\Debug\UnitClassLibrary.dll
+D:\Коды\Криптография\RSA\RSA\bin\Debug\MathNet.Numerics.xml
+D:\Коды\Криптография\RSA\RSA\bin\Debug\MoreLinq.Portable.xml
+D:\Коды\Криптография\RSA\RSA\obj\Debug\RSA.csprojAssemblyReference.cache
+D:\Коды\Криптография\RSA\RSA\obj\Debug\RSA.csproj.CoreCompileInputs.cache
+D:\Коды\Криптография\RSA\RSA\obj\Debug\RSA.csproj.CopyComplete
+D:\Коды\Криптография\RSA\RSA\obj\Debug\RSA.exe
+D:\Коды\Криптография\RSA\RSA\obj\Debug\RSA.pdb

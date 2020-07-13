@@ -1,0 +1,5 @@
+C:\Users\Jeffrey\Downloads\clipper_ver6.4 (2)\C#\clipper_library\bin\Debug\clipper_library.dll
+C:\Users\Jeffrey\Downloads\clipper_ver6.4 (2)\C#\clipper_library\bin\Debug\clipper_library.pdb
+C:\Users\Jeffrey\Downloads\clipper_ver6.4 (2)\C#\clipper_library\obj\Debug\clipper_library.csprojResolveAssemblyReference.cache
+C:\Users\Jeffrey\Downloads\clipper_ver6.4 (2)\C#\clipper_library\obj\Debug\clipper_library.dll
+C:\Users\Jeffrey\Downloads\clipper_ver6.4 (2)\C#\clipper_library\obj\Debug\clipper_library.pdb

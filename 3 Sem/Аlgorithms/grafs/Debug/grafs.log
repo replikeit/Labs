@@ -1,0 +1,5 @@
+﻿  grafs.cpp
+D:\Коды\Irunner\grafs\grafs.cpp(14,20): warning C4018:  <: несоответствие типов со знаком и без знака
+D:\Коды\Irunner\grafs\grafs.cpp(56,22): warning C4018:  <: несоответствие типов со знаком и без знака
+D:\Коды\Irunner\grafs\grafs.cpp(114,20): warning C4018:  <: несоответствие типов со знаком и без знака
+  grafs.vcxproj -> D:\Коды\Irunner\grafs\Debug\grafs.exe

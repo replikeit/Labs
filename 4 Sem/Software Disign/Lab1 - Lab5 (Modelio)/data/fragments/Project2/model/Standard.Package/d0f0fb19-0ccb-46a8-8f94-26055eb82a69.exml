@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Logical View" version="4">
+  <OBJECT>
+    <ID name="Logical View" mc="Standard.Package" uid="d0f0fb19-0ccb-46a8-8f94-26055eb82a69"/>
+    <PID name="cinema cashbox" mc="Standard.Package" uid="002d6f77-3e99-45db-93a0-f48799ef914f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Logical View]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Auntification" mc="Standard.Activity" uid="24954e85-2c56-4548-92cb-1c8e48b55110"/>
+        <COMPID name="Ticket Return" mc="Standard.Activity" uid="4aeabbce-bf8f-45b3-8606-060a9ecc5749"/>
+        <COMPID name="Buying Ticket" mc="Standard.Activity" uid="25dcc8e8-1dfa-48ed-9b4e-36360ec85409"/>
+        <COMPID name="Client Bonus Status " mc="Standard.StateMachine" uid="155e063f-b52e-42bf-8fe8-215bda3ef489"/>
+        <COMPID name="Ticket Status" mc="Standard.StateMachine" uid="bba0850b-40b3-4155-bafd-ed12939fa475"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

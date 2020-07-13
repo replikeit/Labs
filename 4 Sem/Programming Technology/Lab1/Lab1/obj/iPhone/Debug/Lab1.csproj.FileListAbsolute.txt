@@ -1,0 +1,15 @@
+D:\Коды\Технологи Программирования\Lab1\Lab1\bin\iPhone\Debug\Lab1.exe
+D:\Коды\Технологи Программирования\Lab1\Lab1\bin\iPhone\Debug\Lab1.pdb
+D:\Коды\Технологи Программирования\Lab1\Lab1\bin\iPhone\Debug\Xamarin.Essentials.dll
+D:\Коды\Технологи Программирования\Lab1\Lab1\bin\iPhone\Debug\Xamarin.Essentials.pdb
+D:\Коды\Технологи Программирования\Lab1\Lab1\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\Коды\Технологи Программирования\Lab1\Lab1\obj\iPhone\Debug\actool\_PartialAppManifest.items
+D:\Коды\Технологи Программирования\Lab1\Lab1\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+D:\Коды\Технологи Программирования\Lab1\Lab1\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+D:\Коды\Технологи Программирования\Lab1\Lab1\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\Коды\Технологи Программирования\Lab1\Lab1\obj\iPhone\Debug\optimized\
+D:\Коды\Технологи Программирования\Lab1\Lab1\obj\iPhone\Debug\Lab1.csprojAssemblyReference.cache
+D:\Коды\Технологи Программирования\Lab1\Lab1\obj\iPhone\Debug\Lab1.csproj.CoreCompileInputs.cache
+D:\Коды\Технологи Программирования\Lab1\Lab1\obj\iPhone\Debug\Lab1.csproj.CopyComplete
+D:\Коды\Технологи Программирования\Lab1\Lab1\obj\iPhone\Debug\Lab1.exe
+D:\Коды\Технологи Программирования\Lab1\Lab1\obj\iPhone\Debug\Lab1.pdb

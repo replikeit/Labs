@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CRUD " version="4">
+  <OBJECT>
+    <ID name="CRUD " mc="Standard.Package" uid="f9ca8124-9718-41c9-b9e0-a1d319c05b1d"/>
+    <PID name="Additional Models" mc="Standard.Package" uid="c46c6f2e-8a9e-4504-80fd-02e071c7210c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CRUD ]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CRUD данных о сеансах" mc="Standard.UseCase" uid="0abbc83b-01e5-4f8f-864b-ace8121d868c"/>
+        <COMPID name="CRUD данных о билетах" mc="Standard.UseCase" uid="916262fd-a0e2-4f61-946a-8950405d898f"/>
+        <COMPID name="Вид фильма: 3D/2D" mc="Standard.UseCase" uid="d3840425-78d0-4676-8a6a-53ecff53392d"/>
+        <COMPID name="Название фильма" mc="Standard.UseCase" uid="1aed2fb4-5292-4556-be75-838fcddc544f"/>
+        <COMPID name=" Описание фильма" mc="Standard.UseCase" uid="cebc3e77-5946-478b-87d8-2cee13a6870e"/>
+        <COMPID name="Номер зала" mc="Standard.UseCase" uid="e6f4ea01-caba-4396-a9c1-5aa718f79904"/>
+        <COMPID name="Кинотеатр" mc="Standard.UseCase" uid="dda3faae-d6ac-41de-a498-1fa1e9f8cd1a"/>
+        <COMPID name="Длительность фильма" mc="Standard.UseCase" uid="ca862e58-ba99-4408-8d8d-babae8d5bdd8"/>
+        <COMPID name="Дата и время начала сеанса" mc="Standard.UseCase" uid="c20c8804-a58a-4411-adbe-c2644356d124"/>
+        <COMPID name="Обращение к БД" mc="Standard.UseCase" uid="62760d5c-3854-43ff-b186-fb6b7cf0fa75"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="CRUD" mc="Standard.UseCaseDiagram" uid="0a6245b0-0bf4-4ae3-bd15-78031564da58"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

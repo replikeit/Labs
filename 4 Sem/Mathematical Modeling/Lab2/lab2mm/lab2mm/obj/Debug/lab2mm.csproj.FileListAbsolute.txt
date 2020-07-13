@@ -1,0 +1,10 @@
+D:\Коды\Мат. Моделирование\Lab2\lab2mm\lab2mm\bin\Debug\lab2mm.exe.config
+D:\Коды\Мат. Моделирование\Lab2\lab2mm\lab2mm\bin\Debug\lab2mm.exe
+D:\Коды\Мат. Моделирование\Lab2\lab2mm\lab2mm\bin\Debug\lab2mm.pdb
+D:\Коды\Мат. Моделирование\Lab2\lab2mm\lab2mm\obj\Debug\lab2mm.csprojAssemblyReference.cache
+D:\Коды\Мат. Моделирование\Lab2\lab2mm\lab2mm\obj\Debug\lab2mm.Form1.resources
+D:\Коды\Мат. Моделирование\Lab2\lab2mm\lab2mm\obj\Debug\lab2mm.Properties.Resources.resources
+D:\Коды\Мат. Моделирование\Lab2\lab2mm\lab2mm\obj\Debug\lab2mm.csproj.GenerateResource.cache
+D:\Коды\Мат. Моделирование\Lab2\lab2mm\lab2mm\obj\Debug\lab2mm.csproj.CoreCompileInputs.cache
+D:\Коды\Мат. Моделирование\Lab2\lab2mm\lab2mm\obj\Debug\lab2mm.exe
+D:\Коды\Мат. Моделирование\Lab2\lab2mm\lab2mm\obj\Debug\lab2mm.pdb

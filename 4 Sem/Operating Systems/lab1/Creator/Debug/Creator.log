@@ -1,0 +1,7 @@
+﻿  Creator.cpp
+D:\Коды\Операционные Системы\lab1\Creator\Creator.cpp(20,10): warning C4101: name: неиспользованная локальная переменная
+D:\Коды\Операционные Системы\lab1\Creator\Creator.cpp(19,9): warning C4101: tmpName: неиспользованная локальная переменная
+D:\Коды\Операционные Системы\lab1\Creator\Creator.cpp(42,19): warning C4477: "scanf": в строке форматирования "%f" требуется аргумент типа "float *", но вариативный аргумент "3" имеет тип "double *"
+D:\Коды\Операционные Системы\lab1\Creator\Creator.cpp(42,19): message : рекомендуется использовать "%lf" в строке форматирования
+D:\Коды\Операционные Системы\lab1\Creator\Creator.cpp(49,30): warning C4018: <: несоответствие типов со знаком и без знака
+  Creator.vcxproj -> D:\Коды\Операционные Системы\lab1\Creator\Debug\Creator.exe

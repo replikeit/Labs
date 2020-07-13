@@ -1,0 +1,7 @@
+D:\Коды\Криптография\ElGamal\ElGamal\obj\Debug\ElGamal.csprojAssemblyReference.cache
+D:\Коды\Криптография\ElGamal\ElGamal\obj\Debug\ElGamal.csproj.CoreCompileInputs.cache
+D:\Коды\Криптография\ElGamal\ElGamal\bin\Debug\ElGamal.exe.config
+D:\Коды\Криптография\ElGamal\ElGamal\bin\Debug\ElGamal.exe
+D:\Коды\Криптография\ElGamal\ElGamal\bin\Debug\ElGamal.pdb
+D:\Коды\Криптография\ElGamal\ElGamal\obj\Debug\ElGamal.exe
+D:\Коды\Криптография\ElGamal\ElGamal\obj\Debug\ElGamal.pdb

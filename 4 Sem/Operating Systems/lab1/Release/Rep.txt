@@ -1,0 +1,4 @@
+Report from file.bin
+Number: 1 	 Name: aaa 	 hours worked: 1.1 	 salary: 2.20
+Number: 2 	 Name: bbb 	 hours worked: 2.2 	 salary: 4.40
+Number: 3 	 Name: ccc 	 hours worked: 3.3 	 salary: 6.60

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Buying Ticket" version="4">
+  <OBJECT>
+    <ID name="Buying Ticket" mc="Standard.Package" uid="bbf3fa0b-7147-4a70-8ecb-acb7fbd58959"/>
+    <PID name="Additional Models" mc="Standard.Package" uid="c46c6f2e-8a9e-4504-80fd-02e071c7210c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Buying Ticket]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Поиск по афише" mc="Standard.UseCase" uid="0a6a1a7c-b003-4dea-8373-f6f1193bd374"/>
+        <COMPID name="Выбрать свободные места" mc="Standard.UseCase" uid="17f71af7-e934-483a-ad28-8a1326230042"/>
+        <COMPID name="Указать реквезиты" mc="Standard.UseCase" uid="4b646306-6602-46b0-abbb-9506984ae4e6"/>
+        <COMPID name="Обращение к БД" mc="Standard.UseCase" uid="ba0407da-15b3-4903-9d31-2559cc18b905"/>
+        <COMPID name="Возврат средств" mc="Standard.UseCase" uid="97b6a6b6-6136-43c4-b847-c48f4f4f646e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Buying Diagram" mc="Standard.UseCaseDiagram" uid="bdb9e7ed-e415-4187-b7b4-aa7ae3cf6cd2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

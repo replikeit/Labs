@@ -1,0 +1,2 @@
+Report from file.bin
+Number: 12 	 Name: armenko 	 hours worked: 6.1 	 salary: 61.00

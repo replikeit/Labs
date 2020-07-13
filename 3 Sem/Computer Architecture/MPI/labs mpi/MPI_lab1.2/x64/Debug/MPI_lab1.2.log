@@ -1,0 +1,3 @@
+﻿  MPI_lab1.2.cpp
+D:\Коды\MPI лабы\MPI_lab1.2\MPI_lab1.2.cpp(173,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  MPI_lab1.2.vcxproj -> D:\Коды\MPI лабы\MPI_Lab1.2\x64\Debug\MPI_lab1.2.exe

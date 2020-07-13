@@ -1,0 +1,12 @@
+#Mon Apr 13 01:43:16 MSK 2020
+org.modelio.diagram.editor.OpenedDiagrams9='Register Sequence diagram' {0c40b1b7-11ef-40f9-b16f-e5990a12448c} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams8='Buying sequence diagram' {668db400-12de-443e-81b9-2cda0af06df8} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams7='Session Object Diagram' {0c32ba9a-d2d3-44df-9367-dd36cc1a6d75} Standard.ObjectDiagram
+org.modelio.diagram.editor.OpenedDiagrams6='Buying Ticket' {12dd2539-20a0-484f-9375-28ca6a9f2d8d} Standard.ClassDiagram
+org.modelio.diagram.editor.OpenedDiagrams5='Register System' {ad2a882a-8c0d-4ed9-b41f-a81ecea91813} Standard.ClassDiagram
+org.modelio.diagram.editor.OpenedDiagrams4='Log in System' {1c303817-e843-4848-b9fc-7353d38b4d83} Standard.ClassDiagram
+org.modelio.diagram.editor.OpenedDiagrams3='Login Diagram' {eee8126a-b689-45ae-bf21-44d81b514409} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams2='Main Abstraction' {94dda36c-c891-4145-8cca-f63a2d359ca1} Standard.ClassDiagram
+org.modelio.diagram.editor.OpenedDiagrams1='Activity diagram' {af46f024-d704-4dfc-8fb6-206a89a6231e} Standard.ActivityDiagram
+org.modelio.diagram.editor.OpenedDiagrams0='Buying Diagram' {bdb9e7ed-e415-4187-b7b4-aa7ae3cf6cd2} Standard.UseCaseDiagram
+org.modelio.diagram.editor.OpenedDiagrams10='Ticket Object Diagram' {5e5e6ec1-0d9b-4a60-bfa4-9dedd9a8ccac} Standard.ObjectDiagram

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Business Diagram" version="4">
+  <OBJECT>
+    <ID name="Business Diagram" mc="Standard.Package" uid="f0c6a47f-8802-4c2d-8995-4d01311cfa86"/>
+    <PID name="cinema cashbox" mc="Standard.Package" uid="002d6f77-3e99-45db-93a0-f48799ef914f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Business Diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Подтвердить покупку билетов" mc="Standard.UseCase" uid="ab7defe0-2499-47de-8eea-1fce797ed985"/>
+        <COMPID name="Списать со счета" mc="Standard.UseCase" uid="2c0e40ae-b7e9-436e-baf9-ea09a74cfaf5"/>
+        <COMPID name="Пометить билеты как выкупленые" mc="Standard.UseCase" uid="88583931-b5f9-46ae-9063-079019b359bf"/>
+        <COMPID name="Банк" mc="Standard.Actor" uid="3cfc01b6-d1ae-413b-9985-a1455ff3613c"/>
+        <COMPID name="Выставить счет" mc="Standard.UseCase" uid="d90c127d-f595-4270-bc36-1ed767f475af"/>
+        <COMPID name="Выбор фильма" mc="Standard.UseCase" uid="ee7e12c6-0d19-4b20-8cd0-74c98c75b6fe"/>
+        <COMPID name="Поиск по афише" mc="Standard.UseCase" uid="6779b391-0c01-4242-96ff-604e9e885eaa"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Business" mc="Standard.UseCaseDiagram" uid="e202fe6e-9a4a-459d-b498-2068e212bc9d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

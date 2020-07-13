@@ -1,0 +1,4 @@
+﻿  MPI_lab1.3.cpp
+  Process.cpp
+D:\Коды\MPI лабы\MPI_lab1.3\MPI_lab1.3.cpp(1,10): error C1083:  Не удается открыть файл включение: mpi.h: No such file or directory,
+D:\Коды\MPI лабы\MPI_lab1.3\Process.cpp(2,10): error C1083:  Не удается открыть файл включение: mpi.h: No such file or directory,

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aiifx5IEASnxgt53uoYTIxit+f/TWeCcWesx6B65bTJnBduiuCGnfzRDFgV2IyNjNRyRUI9YH1G8a/03LeGe9A==",
+  "success": true,
+  "projectFilePath": "D:\\Коды\\Технологи Программирования\\Lab1\\Lab1\\Lab1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\khugl\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

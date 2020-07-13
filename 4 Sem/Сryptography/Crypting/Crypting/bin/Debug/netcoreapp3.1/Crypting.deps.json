@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Crypting/1.0.0": {
+        "dependencies": {
+          "MathNet.Numerics.Data.Text": "3.2.0"
+        },
+        "runtime": {
+          "Crypting.dll": {}
+        }
+      },
+      "MathNet.Numerics/3.0.0": {
+        "runtime": {
+          "lib/net40/MathNet.Numerics.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "MathNet.Numerics.Data.Text/3.2.0": {
+        "dependencies": {
+          "MathNet.Numerics": "3.0.0"
+        },
+        "runtime": {
+          "lib/net40/MathNet.Numerics.Data.Text.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Crypting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathNet.Numerics/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ay8lsOL8Kytj6GIAs+49/6yV6SdQQ2ZB72MSgVms9j/g/l4JOpRPBwHwaJPILOiV/RsSm2SRVFUWTiaFO9IMog==",
+      "path": "mathnet.numerics/3.0.0",
+      "hashPath": "mathnet.numerics.3.0.0.nupkg.sha512"
+    },
+    "MathNet.Numerics.Data.Text/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i+kwxYOu9ed0xKRSJVSARAH0QiE2hsR8AxzporDtGt2deqzBCdGO3iFsocu3b2WZ9o7o+eyMsVATdjNR7iy3PA==",
+      "path": "mathnet.numerics.data.text/3.2.0",
+      "hashPath": "mathnet.numerics.data.text.3.2.0.nupkg.sha512"
+    }
+  }
+}

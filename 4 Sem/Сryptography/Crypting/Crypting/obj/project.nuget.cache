@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "2a/P1nlvhJUUbhTvqRUJ6aHLaHvWRJvf7J2r7dzQOhRIgxIxAt07Fci4eKNWbX9XfggZtIxGNjRjEOqrhUdhXw==",
+  "success": true,
+  "projectFilePath": "D:\\Коды\\Криптография\\Crypting\\Crypting\\Crypting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\khugl\\.nuget\\packages\\mathnet.numerics\\3.0.0\\mathnet.numerics.3.0.0.nupkg.sha512",
+    "C:\\Users\\khugl\\.nuget\\packages\\mathnet.numerics.data.text\\3.2.0\\mathnet.numerics.data.text.3.2.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"MathNet.Numerics 3.0.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "MathNet.Numerics",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"MathNet.Numerics.Data.Text 3.2.0\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "MathNet.Numerics.Data.Text",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
